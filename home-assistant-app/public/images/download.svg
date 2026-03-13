@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="white"></rect>
+
+  <!-- Roof -->
+  <path d="M240 420 L540 150 L840 420" fill="none" stroke="black" stroke-width="28" stroke-linecap="square" stroke-linejoin="miter"></path>
+
+  <!-- Window (outer circle thinner) -->
+  <circle cx="540" cy="380" r="60" fill="white" stroke="black" stroke-width="18"></circle>
+
+  <circle cx="540" cy="380" r="42" fill="none" stroke="black" stroke-width="10"></circle>
+
+  <line x1="540" y1="338" x2="540" y2="422" stroke="black" stroke-width="10" stroke-linecap="round"></line>
+
+  <line x1="498" y1="380" x2="582" y2="380" stroke="black" stroke-width="10" stroke-linecap="round"></line>
+
+  <!-- Left B -->
+  <text x="390" y="690" font-family="Arial Black, Helvetica, sans-serif" font-size="340" font-weight="900" text-anchor="middle" fill="black">B</text>
+
+  <!-- Right mirrored B -->
+  <g transform="translate(690 690) scale(-1 1)">
+    <text x="0" y="0" font-family="Arial Black, Helvetica, sans-serif" font-size="340" font-weight="900" text-anchor="middle" fill="black">B</text>
+  </g>
+</svg>

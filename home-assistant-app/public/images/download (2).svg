@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 283">
+  <defs>
+    <style>
+      .gold { fill: #FDB433; }
+    </style>
+
+    <!-- left star from your original -->
+    <path id="star-left" class="gold" d="
+      M 124 27
+      L 107 18
+      L 110 0
+      L 96 13
+      L 79 4
+      L 87 22
+      L 74 35
+      L 93 33
+      L 102 49
+      L 105 31
+      Z
+    "></path>
+
+    <!-- left half of the sun from your original -->
+    <path id="sun-left" class="gold" d="
+      M 44 26
+      L 47 35
+      L 47 45
+      L 54 48
+      L 69 59
+      L 106 95
+      L 105 96
+      L 73 68
+      L 54 56
+      L 56 68
+      L 66 72
+      L 79 81
+      L 105 105
+      L 98 120
+      L 56 116
+      L 47 114
+      L 41 110
+      L 29 117
+      L 57 123
+      L 95 126
+      L 91 128
+      L 43 126
+      L 28 124
+      L 16 120
+      L 13 124
+      L 0 132
+      L 9 136
+      L 16 143
+      L 28 139
+      L 56 136
+      L 91 135
+      L 95 137
+      L 57 140
+      L 29 145
+      L 41 153
+      L 47 149
+      L 61 146
+      L 98 143
+      L 105 158
+      L 79 182
+      L 66 191
+      L 57 194
+      L 54 207
+      L 73 195
+      L 105 167
+      L 106 169
+      L 69 204
+      L 54 215
+      L 47 218
+      L 47 228
+      L 43 238
+      L 56 234
+      L 64 234
+      L 67 226
+      L 79 210
+      L 113 174
+      L 115 175
+      L 87 207
+      L 74 227
+      L 87 225
+      L 88 219
+      L 96 206
+      L 120 177
+      L 123 176
+      L 137 183
+      L 133 229
+      L 131 236
+      L 127 241
+      L 135 252
+      L 140 228
+      L 142 189
+      L 144 187
+      L 144 231
+      L 141 256
+      L 137 265
+      L 145 274
+      L 148 282
+      L 150 282
+      L 150 130
+      L 148 130
+      Z
+    "></path>
+
+    <!-- centre emblem from your original -->
+    <path id="centre-mark" class="gold" d="
+      M 165 54
+      L 150 65
+      L 148 65
+      L 135 55
+      L 133 55
+      L 139 72
+      L 124 84
+      L 142 84
+      L 144 86
+      L 148 100
+      L 150 102
+      L 156 84
+      L 174 84
+      L 159 72
+      Z
+    "></path>
+  </defs>
+
+  <!-- left star -->
+  <use href="#star-left"></use>
+
+  <!-- right star mirrored from left -->
+  <use href="#star-left" transform="translate(300 0) scale(-1 1)"></use>
+
+  <!-- middle top star kept centred -->
+  <path class="gold" d="
+    M 150 58
+    L 156 75
+    L 174 75
+    L 160 86
+    L 166 103
+    L 150 93
+    L 134 103
+    L 140 86
+    L 126 75
+    L 144 75
+    Z
+  "></path>
+
+  <!-- left half -->
+  <use href="#sun-left"></use>
+
+  <!-- mirrored right half -->
+  <use href="#sun-left" transform="translate(300 0) scale(-1 1)"></use>
+
+  <!-- centre emblem -->
+  <use href="#centre-mark"></use>
+</svg>
